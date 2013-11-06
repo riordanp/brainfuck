@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	string program;
+	//test
 	//brainfuck hello world from wikipedia
 	//program = "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.";
 	//prints fibonacci sequence (http://www.hevanet.com/cristofd/brainfuck/fib.b)

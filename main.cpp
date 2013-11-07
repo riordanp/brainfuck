@@ -21,11 +21,17 @@ int main()
 		switch(program[i])
 		{
 			case '>':
-				ptr++;
+				if(*ptr++ >= 30000)
+				{
+					*ptr = 0;
+				}
 			break;
 
 			case '<':
-				ptr--;
+				if(*ptr-- < 0)
+				{
+					*ptr = 30000;
+				}
 			break;
 
 			case '+':

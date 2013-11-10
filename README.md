@@ -1,7 +1,7 @@
 brainfuck
 =======
 
-A brainfuck interpreter written in C++
+A brainfuck interpreter written in C++, now with Linux support!
 
 todo
 -------
